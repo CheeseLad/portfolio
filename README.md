@@ -1,10 +1,10 @@
-# portfolio-svelte
+# portfolio
 
 *My personal portfolio website*
 
 
 ## Tech Stack Used:
-- Svelte
+- Vite
 - TailwindCSS
 - Docker
 
