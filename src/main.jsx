@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Error from "./components/other/Error.jsx";
+import Awards from "./components/home/Awards.jsx";
+import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
 
 const root = document.getElementById("root");
@@ -24,6 +26,7 @@ ReactDOM.createRoot(root).render(
             <div className="bg-gray-300">
               <Projects />
               <Experience />
+              <Awards />
               <Skills />
             </div>
             <Footer />
@@ -49,6 +52,17 @@ ReactDOM.createRoot(root).render(
             <Intro />
             <div className="flex-grow"></div>
             {/*<DCUSolarRacing />*/}
+            <Footer />
+          </div>
+        }
+      />
+      <Route
+        path="/events"
+        element={
+          <div className="bg-gray-300 min-h-screen flex flex-col">
+            <Intro />
+            <div className="flex-grow"></div>
+            <Events />
             <Footer />
           </div>
         }

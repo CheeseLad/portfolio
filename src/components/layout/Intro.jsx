@@ -5,6 +5,7 @@ import {
   faFileLines,
   faCamera,
   faHouse,
+  faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -79,11 +80,20 @@ const Intro = () => {
           Home
         </Link>
         <Link
-          to="/photography"
+          to="https://dcufotosoc.ie/portfolios/jake-farrell"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
         >
           <FontAwesomeIcon icon={faCamera} className="mr-2" />
           Photography
+        </Link>
+        <Link
+          to="/events"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+        >
+          <FontAwesomeIcon icon={faCalendarDays} className="mr-2" />
+          Events
         </Link>
       </div>
 

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Award Title",
+    "images": ["url1", "url2", "url3", "url4"],
+    "subtitle": "Award Subtitle",
+    "description": "A short description of the award.",
+    "certificateLink": "https://example.com/certificate",
+    "relatedLinks": [
+      { "title": "Related Article", "url": "https://example.com/article" }
+    ]
+  },
+  {
+    "title": "Example Award",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg"
+    ],
+    "subtitle": "Example Award Subtitle",
+    "description": "This is a brief description of the example award, highlighting its significance and the achievements it recognizes.",
+    "certificateLink": "https://example.com/certificate.pdf",
+    "relatedLinks": [
+      { "title": "Learn More About the Award", "url": "https://example.com/learn-more" },
+      { "title": "View Past Winners", "url": "https://example.com/past-winners" }
+    ]
+  }
+]
