@@ -46,7 +46,7 @@ const Projects = () => {
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4"
                       >
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
-                        View Project
+                        View Project Live
                       </Link>
                     </div>
                     <div className="flex justify-end">

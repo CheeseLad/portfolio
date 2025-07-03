@@ -25,7 +25,12 @@ const Awards = () => {
             </div>
 
             {/* Subtitle */}
-            <h4 className="text-xl font-medium mb-2">{award.subtitle}</h4>
+            <h4 className="text-xl font-medium">{award.subtitle}</h4>
+
+            {/* Date */}
+            {award.date && (
+              <i className="text-gray-500 mb-8">{award.date}</i>
+            )}
 
             {/* Description */}
             <p className="text-gray-700 mb-4">{award.description}</p>
@@ -39,7 +44,7 @@ const Awards = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Certificate
+                  View Award Certificate
                 </a>
               </div>
             )}

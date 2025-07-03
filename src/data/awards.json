@@ -1,25 +1,29 @@
 [
   {
-    "title": "Award Title",
-    "images": ["url1", "url2", "url3", "url4"],
-    "subtitle": "Award Subtitle",
+    "title": "Individual Contribution to Society Life",
+    "images": ["cns.jpg", "cns.jpg", "cns.jpg", "cns.jpg"],
+    "subtitle": "DCU Clubs & Societies - Media Production Society",
+    "date": "Awarded on 20th March 2025",
     "description": "A short description of the award.",
     "certificateLink": "https://example.com/certificate",
     "relatedLinks": [
-      { "title": "Related Article", "url": "https://example.com/article" }
+      { "title": "DCU Society Listing Page", "url": "https://dcuclubsandsocs.ie/society/media-production" },
+      { "title": "LinkedIn Post", "url": "https://www.linkedin.com/in/jake-farrell-cs" },
+      { "title": "Society Website", "url": "https://dcumps.ie" }
     ]
   },
   {
-    "title": "Example Award",
+    "title": "Huawei Seeds for the Future - Global Winner",
     "images": [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-      "https://example.com/image4.jpg"
+      "cns.jpg",
+      "cns.jpg",
+      "cns.jpg",
+      "huawei_cert.jpg"
     ],
-    "subtitle": "Example Award Subtitle",
-    "description": "This is a brief description of the example award, highlighting its significance and the achievements it recognizes.",
-    "certificateLink": "https://example.com/certificate.pdf",
+    "subtitle": "Huawei Seeds for the Future - Global Winner",
+    "date": "Awarded on 15th September 2024",
+    "description": "This is a brief description of the Huawei Seeds for the Future award, highlighting its significance and the achievements it recognizes.",
+    "certificateLink": "huawei_cert.jpg",
     "relatedLinks": [
       { "title": "Learn More About the Award", "url": "https://example.com/learn-more" },
       { "title": "View Past Winners", "url": "https://example.com/past-winners" }

@@ -12,6 +12,7 @@ import Error from "./components/other/Error.jsx";
 import Awards from "./components/home/Awards.jsx";
 import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
+import SingleBlog from "./components/blog/SingleBlog.jsx";
 
 const root = document.getElementById("root");
 
@@ -75,6 +76,17 @@ ReactDOM.createRoot(root).render(
             <div className="bg-gray-300">
               <Error />
             </div>
+            <Footer />
+          </div>
+        }
+      />
+      <Route
+        path="/blog"
+        element={
+          <div className="bg-gray-300 min-h-screen flex flex-col">
+            <Intro />
+            <div className="flex-grow"></div>
+            <SingleBlog />
             <Footer />
           </div>
         }

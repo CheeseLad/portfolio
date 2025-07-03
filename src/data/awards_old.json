@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Best Developer Award",
+    "year": "2024",
+    "description": "Awarded for outstanding development skills.",
+    "link": "/awards/best-developer"
+  },
+  {
+    "title": "Innovation Prize",
+    "year": "2023",
+    "description": "Recognized for innovative project solutions.",
+    "link": "/awards/innovation-prize"
+  },
+  {
+    "title": "Team Leadership Excellence",
+    "year": "2022",
+    "description": "Honored for exemplary team leadership.",
+    "link": "/awards/team-leadership"
+  }
+]
