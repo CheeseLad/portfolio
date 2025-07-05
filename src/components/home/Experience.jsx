@@ -10,9 +10,10 @@ const Experience = () => {
         {experienceData.map((experience, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center mb-8 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300"
+            className="flex flex-col md:flex-row items-start mb-2 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300"
+
           >
-            <img src={experience.image} alt={experience.position} className="w-1/4 object-cover" />
+            <img src={experience.image} alt={experience.position} className="w-1/4 h-full object-cover object-center" draggable="false" />
             <div className="flex-1 mx-4">
               <p className="font-bold">
                 {experience.position} - {""}

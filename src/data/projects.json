@@ -1,17 +1,17 @@
 [
   {
-    "title": "CollegeGuide",
-    "description": "Third Year Project for my Computer Science Degree at DCU, achieving a grade of 81%. CollegeGuide is a student companion platform aimed to connect, simplify and interconnect student lives. This platform provides a set of useful academic tools with the focus of a \"by students, for students\" approach by combining on-demand chatbot assistance and deeper, community-driven interaction features on dedicated module-based community boards.",
+    "title": "CollegeGuide - Third Year Project",
+    "description": "CollegeGuide is a student companion platform aimed to connect, simplify and interconnect student lives. This platform provides a set of useful academic tools with the focus of a \"by students, for students\" approach by combining on-demand chatbot assistance and deeper, community-driven interaction features on dedicated module-based community boards.",
     "image": "collegeguide.png",
-    "techStack": ["React", "Tailwind CSS", "Django", "Celery", "Redis", "Docker", "Hugo"],
+    "techStack": ["React", "Tailwind CSS", "Django", "Celery", "Redis", "Docker"],
     "demoLink": "https://collegeguide.jakefarrell.ie",
-    "codeLink": "https://github.com/CheeseLad/collegeguide"
+    "extra": "Grade: 81%"
   },
   {
     "title": "Home Server, VPS and Documentation",
     "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and other useful tools.",
     "image": "homelab.webp",
-    "techStack": ["Docker", "Debian", "MkDocs"],
+    "techStack": ["Docker", "Debian", "MkDocs", "Shell", "Rclone"],
     "demoLink": "https://docs.jakefarrell.ie",
     "codeLink": "https://github.com/CheeseLad/docs"
   },

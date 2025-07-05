@@ -18,7 +18,7 @@ const projectsRows = chunkArray(ProjectData, 3);
 
 const Projects = () => {
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto pb-12 pt-6">
       <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
       {/*<ButtonRow />*/}
       {projectsRows.map((projectsRow, rowIndex) => (
@@ -48,17 +48,24 @@ const Projects = () => {
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
                         View Project Live
                       </Link>
+                      {project.extra && (
+                      <div className="bg-yellow-500 text-black px-4 py-2 rounded-md transition duration-300 mr-4">
+                        <span>{project.extra}</span>
+                      </div>
+                    )}
                     </div>
+                  {project.codeLink && (
                     <div className="flex justify-end">
                       <Link
-                        to={project.codeLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                          to={project.codeLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
                         className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-md transition duration-300"
                       >
                         <FontAwesomeIcon icon={faGithub} />
                       </Link>
                     </div>
+                    )}
                   </div>
                 </div>
               </div>

@@ -1,5 +1,15 @@
 [
   {
+    "year": "March 2025 - Present",
+    "position": "Software Development Engineer Intern",
+    "company": "Workday",
+    "link": "https://www.workday.com",
+    "image": "workday_logo.jpg",
+    "description": [
+      "Workday Private Cloud"
+    ]
+  },
+  {
     "year": "March 2024 - Present",
     "position": "Chairperson",
     "company": "Redbrick",
@@ -20,7 +30,7 @@
     "description": [
       "Developing a full stack website built using React & Firebase to showcase all aspects of DCU Fotosoc.",
       "Utilising the Stripe API to allow for the sale of merchandise and yearly photo book.",
-      "Liaising with the committee to develop the website with the society’s vision in mind."
+      "Liaising with the committee to develop the website with the society's vision in mind."
     ]
   },
   {
@@ -31,7 +41,7 @@
     "image": "dcumps_logo.png",
     "description": [
       "Built a custom website using Bootstrap & Django for the society.",
-      "Implemented a live donation bar for the yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children’s Foundation.",
+      "Implemented a live donation bar for the yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children's Foundation.",
       "Configured an email system that provides committee members with professional emails."
     ]
   },
