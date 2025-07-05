@@ -20,21 +20,21 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route
-        path="/"
+        path="*"
         element={
           <div>
             <Intro />
             <div className="bg-gray-300">
               <Projects />
               <Experience />
-              <Awards />
+              {/*<Awards />*/}
               <Skills />
             </div>
             <Footer />
           </div>
         }
       />
-      <Route
+      {/*<Route
         path="/photography"
         element={
           <div className="bg-gray-300 min-h-screen flex flex-col">
@@ -52,7 +52,7 @@ ReactDOM.createRoot(root).render(
           <div className="bg-gray-300 min-h-screen flex flex-col">
             <Intro />
             <div className="flex-grow"></div>
-            {/*<DCUSolarRacing />*/}
+            <DCUSolarRacing />
             <Footer />
           </div>
         }
@@ -68,6 +68,17 @@ ReactDOM.createRoot(root).render(
           </div>
         }
       />
+       <Route
+        path="/blog"
+        element={
+          <div className="bg-gray-300 min-h-screen flex flex-col">
+            <Intro />
+            <div className="flex-grow"></div>
+            <SingleBlog />
+            <Footer />
+          </div>
+        }
+      />
       <Route
         path="*"
         element={
@@ -79,18 +90,7 @@ ReactDOM.createRoot(root).render(
             <Footer />
           </div>
         }
-      />
-      <Route
-        path="/blog"
-        element={
-          <div className="bg-gray-300 min-h-screen flex flex-col">
-            <Intro />
-            <div className="flex-grow"></div>
-            <SingleBlog />
-            <Footer />
-          </div>
-        }
-      />
+      />*/}
     </Routes>
   </BrowserRouter>
 );

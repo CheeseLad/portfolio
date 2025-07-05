@@ -1,11 +1,8 @@
-import React from "react";
 import {
   faServer,
   faEnvelope,
   faFileLines,
   faCamera,
-  faHouse,
-  faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -16,6 +13,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 
 const Intro = () => {
+  const trackClick = (action, details = {}) => {
+    if (typeof window !== 'undefined' && window.plausible) {
+      window.plausible(action, { props: details });
+    }
+  };
+
   return (
     <div className="bg-gray-800 text-white py-12 text-center">
       <Link to="/">
@@ -34,6 +37,7 @@ const Intro = () => {
           to="https://github.com/CheeseLad"
           target="_blank"
           className="hover:text-gray-700 transform hover:scale-110 transition duration-300"
+          onClick={() => trackClick('Social_Click', { platform: 'GitHub', location: 'Intro' })}
         >
           <FontAwesomeIcon
             icon={faGithub}
@@ -44,6 +48,7 @@ const Intro = () => {
           to="https://www.linkedin.com/in/jake-farrell-cs"
           target="_blank"
           className="hover:text-blue-700 transform hover:scale-110 transition duration-300"
+          onClick={() => trackClick('Social_Click', { platform: 'LinkedIn', location: 'Intro' })}
         >
           <FontAwesomeIcon
             icon={faLinkedin}
@@ -54,6 +59,7 @@ const Intro = () => {
           to="https://www.instagram.com/jakefarrell2003"
           target="_blank"
           className="hover:text-pink-500 transform hover:scale-110 transition duration-300"
+          onClick={() => trackClick('Social_Click', { platform: 'Instagram', location: 'Intro' })}
         >
           <FontAwesomeIcon
             icon={faInstagram}
@@ -63,6 +69,7 @@ const Intro = () => {
         <Link
           to="mailto:jake_farrell@outlook.com"
           className="hover:text-blue-500 transform hover:scale-110 transition duration-300"
+          onClick={() => trackClick('Contact_Click', { method: 'Email', location: 'Intro' })}
         >
           <FontAwesomeIcon
             icon={faEnvelope}
@@ -72,29 +79,22 @@ const Intro = () => {
       </div>
 
       <div className="flex justify-center flex-wrap">
-        <Link
+        {/*<Link
           to="/"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Home', location: 'Intro' })}
         >
           <FontAwesomeIcon icon={faHouse} className="mr-2" />
           Home
-        </Link>
-        <Link
-          to="https://dcufotosoc.ie/portfolios/jake-farrell"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
-        >
-          <FontAwesomeIcon icon={faCamera} className="mr-2" />
-          Photography
-        </Link>
-        <Link
+        </Link>*/}
+        {/*<Link
           to="/events"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Events', location: 'Intro' })}
         >
           <FontAwesomeIcon icon={faCalendarDays} className="mr-2" />
           Events
-        </Link>
+        </Link>*/}
       </div>
 
       <div className="flex justify-center flex-wrap">
@@ -103,6 +103,7 @@ const Intro = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('CV_Download', { format: 'PDF', location: 'Intro' })}
         >
           <FontAwesomeIcon icon={faFileLines} className="mr-2" />
           Résumé / CV
@@ -112,9 +113,20 @@ const Intro = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[180px] text-center"
+          onClick={() => trackClick('External_Click', { destination: 'Home_Server', location: 'Intro' })}
         >
           <FontAwesomeIcon icon={faServer} className="mr-2" />
           Home Server Dashboard
+        </Link>
+        <Link
+          to="https://dcufotosoc.ie/portfolios/jake-farrell"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Photography_External', location: 'Intro' })}
+        >
+          <FontAwesomeIcon icon={faCamera} className="mr-2" />
+          Photography
         </Link>
       </div>
     </div>
