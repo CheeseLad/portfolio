@@ -98,6 +98,16 @@ const Intro = () => {
       </div>
 
       <div className="flex justify-center flex-wrap">
+         <Link
+          to="https://home.jakefarrell.ie"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[180px] text-center"
+          onClick={() => trackClick('External_Click', { destination: 'Home_Server', location: 'Intro' })}
+        >
+          <FontAwesomeIcon icon={faServer} className="mr-2" />
+          Home Server Dashboard
+        </Link>
         <Link
           to="/Jake_Farrell_CV.pdf"
           target="_blank"
@@ -108,16 +118,7 @@ const Intro = () => {
           <FontAwesomeIcon icon={faFileLines} className="mr-2" />
           Résumé / CV
         </Link>
-        <Link
-          to="https://home.jakefarrell.ie"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[180px] text-center"
-          onClick={() => trackClick('External_Click', { destination: 'Home_Server', location: 'Intro' })}
-        >
-          <FontAwesomeIcon icon={faServer} className="mr-2" />
-          Home Server Dashboard
-        </Link>
+       
         <Link
           to="https://dcufotosoc.ie/portfolios/jake-farrell"
           target="_blank"

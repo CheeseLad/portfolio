@@ -27,7 +27,7 @@ const Experience = () => {
                 </Link>
               </p>
               <p className="text-lg">{experience.year}</p>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside mb-2 sm:mb-0">
                 {experience.description.map((desc, descIndex) => (
                   <li key={descIndex}>{desc}</li>
                 ))}

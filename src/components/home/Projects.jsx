@@ -22,7 +22,7 @@ const Projects = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
       {/*<ButtonRow />*/}
       {projectsRows.map((projectsRow, rowIndex) => (
-        <div key={rowIndex} className="flex flex-wrap mx-6">
+        <div key={rowIndex} className="flex flex-wrap md:mx-6">
           {projectsRow.map((project, projectIndex) => (
             <div key={projectIndex} className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300 block">
@@ -46,7 +46,7 @@ const Projects = () => {
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4"
                       >
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
-                        View Project Live
+                        View Live
                       </Link>
                       {project.extra && (
                       <div className="bg-yellow-500 text-black px-4 py-2 rounded-md transition duration-300 mr-4">
