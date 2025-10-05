@@ -1,16 +1,41 @@
 [
   {
-    "year": "March 2025 - Present",
+    "year": "March 2025 - August 2025",
     "position": "Software Development Engineer Intern",
     "company": "Workday",
     "link": "https://www.workday.com",
     "image": "workday_logo.jpg",
     "description": [
-      "Workday Private Cloud"
+      "Upgraded and enhanced an internal tool used to plan virtual machine capacity for Workday's Private Cloud.",
+      "Created a Slack automation to publish dashboard status information for use by on-call engineers.",
+      "Prepared and delivered a presentation detailing my internship achievements to 60+ employees."
     ]
   },
   {
     "year": "March 2024 - Present",
+    "position": "Webmaster / React & Firebase Developer",
+    "company": "DCU Fotosoc",
+    "link": "https://dcufotosoc.ie",
+    "image": "fotosoc_logo.png",
+    "description": [
+      "Developed a full-stack website built with React, TailwindCSS and Firebase with automated content updates.",
+      "Implemented user auth and storage via Firebase, allowing members to create their own photography portfolios.",
+      "Since January 2025, it has gathered over 7k page views and 17 user portfolios, with 934 total photo uploads."
+    ]
+  },
+  {
+    "year": "April 2023 - April 2025",
+    "position": "Webmaster / Django Developer",
+    "company": "DCU Media Production Society",
+    "link": "https://dcumps.ie",
+    "image": "dcumps_logo.png",
+    "description": [
+      "Created a custom website using Bootstrap and Django, deployed via Docker and built with GitHub Actions, gathering over 12.3k page views since February 2024.",
+      "Implemented a live donation bar for the yearly 24-Hour Broadcast, which helped boost donations with over €12,800 raised for charity."
+    ]
+  },
+  {
+    "year": "March 2024 - March 2025",
     "position": "Chairperson",
     "company": "Redbrick",
     "link": "https://redbrick.dcu.ie",
@@ -22,43 +47,19 @@
     ]
   },
   {
-    "year": "March 2024 - Present",
-    "position": "Webmaster / React & Firebase Developer",
-    "company": "DCU Fotosoc",
-    "link": "https://dcufotosoc.ie",
-    "image": "fotosoc_logo.png",
-    "description": [
-      "Developing a full stack website built using React & Firebase to showcase all aspects of DCU Fotosoc.",
-      "Utilising the Stripe API to allow for the sale of merchandise and yearly photo book.",
-      "Liaising with the committee to develop the website with the society's vision in mind."
-    ]
-  },
-  {
-    "year": "April 2023 - Present",
-    "position": "Webmaster / Django Developer",
-    "company": "DCU Media Production Society",
-    "link": "https://dcumps.ie",
-    "image": "dcumps_logo.png",
-    "description": [
-      "Built a custom website using Bootstrap & Django for the society.",
-      "Implemented a live donation bar for the yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children's Foundation.",
-      "Configured an email system that provides committee members with professional emails."
-    ]
-  },
-  {
-    "year": "December 2023 - Present",
+    "year": "December 2023 - April 2025",
     "position": "Webmaster / WordPress Developer",
     "company": "The College View",
     "link": "https://thecollegeview.ie",
     "image": "tcv_logo.svg",
     "description": [
-      "Maintaining a WordPress website with over 6,000+ articles and over 13+ years of content for The College View newspaper.",
-      "Building a Flutter iOS and Android app for The College View that queries the WordPress REST API for article and page data."
+      "Maintained WordPress for The College View - DCU's Independent Student Newspaper with 6k+ articles and 13+ years of content with 48.6k page views since January 2024.",
+      "Built a Flutter iOS and Android app for The College View that queries the WordPress REST API for article and page data."
     ]
   },
   {
     "year": "October 2022 - Present",
-    "position": "Class Representative - COMSCI1, COMSCI2, COMSCI3",
+    "position": "Class Representative - COMSCI1, COMSCI2, COMSCI3, COMSCI4",
     "company": "DCU Students' Union",
     "link": "https://dcustudentlife.ie",
     "image": "dcusu_logo.webp",
