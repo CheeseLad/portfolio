@@ -51,7 +51,7 @@
     "position": "Webmaster / WordPress Developer",
     "company": "The College View",
     "link": "https://thecollegeview.ie",
-    "image": "tcv_logo.svg",
+    "image": "tcv_logo.png",
     "description": [
       "Maintained WordPress for The College View - DCU's Independent Student Newspaper with 6k+ articles and 13+ years of content with 48.6k page views since January 2024.",
       "Built a Flutter iOS and Android app for The College View that queries the WordPress REST API for article and page data."
@@ -74,7 +74,7 @@
     "position": "Huawei Seeds for the Future 2022",
     "company": "Huawei",
     "link": "https://www.huawei.com/minisite/seeds-for-the-future/index.html",
-    "image": "sftf.jpg",
+    "image": "new_seeds.png",
     "description": [
       "Represented Ireland with our group project Roll On in the Huawei European Talent Summit in Athens, the Tech4Good global competition and the Huawei China Startup Sprint programme."
     ]
