@@ -18,7 +18,7 @@
   {
     "title": "DCU Media Production Society Website",
     "description": "Built using HTML, CSS, Bootstrap and Django, I created a custom website for DCU's Media Production Society as part of my tasks as a webmaster. It features dynamic content for our upcoming events, automated DCUfm data, details about the history of MPS, information about the committee and much more!",
-    "image": "dcumps.webp",
+    "image": "dcumps.png",
     "techStack": ["Django", "Bootstrap", "SQLite", "JavaScript", "Docker"],
     "demoLink": "https://dcumps.ie",
     "codeLink": "https://github.com/DCUMPS/dcumps-website-django"
@@ -26,7 +26,7 @@
   {
     "title": "DCU Fotosoc Website",
     "description": "Developing a full stack website built using React, TailwindCSS and Firebase to fulfil the requirements of the society. Utilising the Stripe API to allow the society to sell merchandise and our yearly photo collection book.",
-    "image": "fotosoc.webp",
+    "image": "fotosoc.png",
     "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
     "demoLink": "https://dcufotosoc.ie",
     "codeLink": "https://github.com/CheeseLad/fotosoc"
@@ -42,10 +42,17 @@
   {
     "title": "Clubs & Societies API",
     "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications. This API is utilised in my other projects such as the DCU Media Production Society website and the DCU Fotosoc website, displaying upcoming event information to members.",
-    "image": "csapi.webp",
+    "image": "csapi.png",
     "techStack": ["Python", "BeautifulSoup", "Flask", "Swagger"],
     "demoLink": "https://clubsandsocs.jakefarrell.ie",
     "codeLink": "https://github.com/CheeseLad/clubsandsocs-api"
+  },
+  {
+    "title": "The College View Website",
+    "description": "The College View is an independent student newspaper of Dublin City University, run voluntarily by students affiliated with DCU’s Media Production Society. I have maintained the WordPress instance with 6k+ articles and 13+ years of content, achieving 77k unique visitors with 132k total page views since January 2024.",
+    "image": "tcvweb.png",
+    "techStack": ["WordPress", "Account Management", "PHP"],
+    "demoLink": "https://thecollegeview.ie"
   },
   {
     "title": "The College View App",
