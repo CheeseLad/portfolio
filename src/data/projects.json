@@ -20,7 +20,7 @@
     "description": "Built using HTML, CSS, Bootstrap and Django, I created a custom website for DCU's Media Production Society as part of my tasks as a webmaster. It features dynamic content for our upcoming events, automated DCUfm data, details about the history of MPS, information about the committee and much more!",
     "image": "dcumps.png",
     "techStack": ["Django", "Bootstrap", "SQLite", "JavaScript", "Docker"],
-    "demoLink": "https://dcumps.ie",
+    "demoLink": "https://dcumps.jakefarrell.ie",
     "codeLink": "https://github.com/DCUMPS/dcumps-website-django"
   },
   {

@@ -27,7 +27,7 @@
     "year": "April 2023 - April 2025",
     "position": "Webmaster / Django Developer",
     "company": "DCU Media Production Society",
-    "link": "https://dcumps.ie",
+    "link": "https://dcumps.jakefarrell.ie",
     "image": "dcumps_logo.png",
     "description": [
       "Created a custom website using Bootstrap and Django, deployed via Docker and built with GitHub Actions, gathering over 12.3k page views since February 2024.",
