@@ -2,7 +2,6 @@ import { useState } from 'react';
 import photographyData from '../../data/photography.json';
 import Modal from './Modal';
 import ReturnHome from '../layout/ReturnHome';
-import { Link } from 'react-router';
 
 const PhotographyGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);

@@ -4,15 +4,14 @@ import Footer from "./components/layout/Footer.jsx";
 import Projects from "./components/home/Projects.jsx";
 import Experience from "./components/home/Experience.jsx";
 import Skills from "./components/home/Skills.jsx";
-import PhotographyGallery from "./components/photography/PhotographyGallery.jsx";
+//import PhotographyGallery from "./components/photography/PhotographyGallery.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
-import React from "react";
 import ReactDOM from "react-dom/client";
-import Error from "./components/other/Error.jsx";
-import Awards from "./components/home/Awards.jsx";
-import Events from "./components/home/Events.jsx";
+//import Error from "./components/other/Error.jsx";
+//import Awards from "./components/home/Awards.jsx";
+//import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
-import SingleBlog from "./components/blog/SingleBlog.jsx";
+//import SingleBlog from "./components/blog/SingleBlog.jsx";
 
 const root = document.getElementById("root");
 
