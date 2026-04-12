@@ -1,32 +1,58 @@
 [
   {
-    "title": "Individual Contribution to Society Life",
-    "images": ["cns.jpg", "cns.jpg", "cns.jpg", "cns.jpg"],
-    "subtitle": "DCU Clubs & Societies - Media Production Society",
+    "title": "Huawei Seeds for the Future Global Winner - Team Ireland",
+    "images": ["huawei_cert.jpg"],
+    "subtitle": "Huawei Seeds for the Future",
+    "date": "Awarded on 6th January 2023",
+    "description": "Huawei announced the winners of the second Tech4Good Competition on January 5, with the Irish team winning the first prize for their solution \"Roll On\" that helps wheelchair users independently board trains. This year's competition attracted 3,222 students from across 110 countries, who worked on more than 300 projects.",
+    "certificateLink": "huawei_cert.jpg",
+    "relatedLinks": [
+      {
+        "title": "Learn More About the Award",
+        "url": "https://example.com/learn-more"
+      },
+      {
+        "title": "View Past Winners",
+        "url": "https://example.com/past-winners"
+      }
+    ]
+  },
+  {
+    "title": "Individual Contribution to Society Life  - Media Production Society",
+    "images": ["cns_awards_mps.jpg"],
+    "subtitle": "DCU Clubs & Societies",
     "date": "Awarded on 20th March 2025",
-    "description": "A short description of the award.",
+    "description": "This award reflects my hard work and dedication to society life in DCU over the years in Redbrick as Chairperson and Secretary, Media Production and Fotosoc as Webmaster.",
     "certificateLink": "https://example.com/certificate",
     "relatedLinks": [
-      { "title": "DCU Society Listing Page", "url": "https://dcuclubsandsocs.ie/society/media-production" },
-      { "title": "LinkedIn Post", "url": "https://www.linkedin.com/in/jake-farrell-cs" },
+      {
+        "title": "DCU Society Listing Page",
+        "url": "https://dcuclubsandsocs.ie/society/media-production"
+      },
+      {
+        "title": "LinkedIn Post",
+        "url": "https://www.linkedin.com/in/jake-farrell-cs"
+      },
       { "title": "Society Website", "url": "https://dcumps.jakefarrell.ie" }
     ]
   },
   {
-    "title": "Huawei Seeds for the Future - Global Winner",
-    "images": [
-      "cns.jpg",
-      "cns.jpg",
-      "cns.jpg",
-      "huawei_cert.jpg"
-    ],
-    "subtitle": "Huawei Seeds for the Future - Global Winner",
-    "date": "Awarded on 15th September 2024",
-    "description": "This is a brief description of the Huawei Seeds for the Future award, highlighting its significance and the achievements it recognizes.",
-    "certificateLink": "huawei_cert.jpg",
+    "title": "Outstanding Contribution to Student Life as a Class Representative",
+    "images": ["sia_class_rep.jpg"],
+    "subtitle": "DCU Student Life",
+    "date": "Awarded on 24th March 2026",
+    "description": "Won the \"Outstanding Contribution to Student Life as a Class Representative\" award at the Student Impact Awards 2026 for my work not only as a class rep, but for my involvement with societies also.",
+    "certificateLink": "https://example.com/certificate",
     "relatedLinks": [
-      { "title": "Learn More About the Award", "url": "https://example.com/learn-more" },
-      { "title": "View Past Winners", "url": "https://example.com/past-winners" }
+      {
+        "title": "DCU Society Listing Page",
+        "url": "https://dcuclubsandsocs.ie/society/media-production"
+      },
+      {
+        "title": "LinkedIn Post",
+        "url": "https://www.linkedin.com/in/jake-farrell-cs"
+      },
+      { "title": "Society Website", "url": "https://dcumps.jakefarrell.ie" }
     ]
   }
 ]

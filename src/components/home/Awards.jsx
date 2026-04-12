@@ -1,42 +1,36 @@
-import React from 'react';
 import awardsData from '../../data/awards.json';
-import { Link } from 'react-router';
 
 const Awards = () => {
   return (
     <div className="container mx-auto px-4 py-10">
       <h2 className="text-4xl font-bold text-center mb-12">Awards</h2>
 
-      <div className="grid mx-8 md:grid-cols-2 gap-8">
+      <div className="grid mx-8 md:grid-cols-3 gap-8">
         {awardsData.map((award, index) => (
           <div key={index} className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-lg hover:transform hover:scale-105 transition duration-300">
             <h3 className="text-2xl font-semibold mb-4 text-center">{award.title}</h3>
 
-            {/* 2x2 Grid of Images */}
-            <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="grid grid-cols-1 gap-4 mb-6">
               {award.images.map((imgUrl, i) => (
                 <img
                   key={i}
                   src={imgUrl}
                   alt={`Award image ${i + 1}`}
-                  className="w-full h-48 object-cover rounded-xl"
+                  className="w-full h-64 object-cover rounded-xl"
                 />
               ))}
             </div>
 
-            {/* Subtitle */}
             <h4 className="text-xl font-medium">{award.subtitle}</h4>
 
-            {/* Date */}
             {award.date && (
               <i className="text-gray-500 mb-8">{award.date}</i>
             )}
 
-            {/* Description */}
-            <p className="text-gray-700 mb-4">{award.description}</p>
+            <p className="text-gray-700">{award.description}</p>
 
-            {/* Certificate Link */}
-            {award.certificateLink && (
+
+            {/*{award.certificateLink && (
               <div className="mb-4">
                 <a
                   href={award.certificateLink}
@@ -49,7 +43,6 @@ const Awards = () => {
               </div>
             )}
 
-            {/* Related Links */}
             {award.relatedLinks && award.relatedLinks.length > 0 && (
               <div>
                 <h5 className="text-lg font-semibold mb-2">Related Articles & Sources:</h5>
@@ -68,7 +61,7 @@ const Awards = () => {
                   ))}
                 </ul>
               </div>
-            )}
+            )}*/}
           </div>
         ))}
       </div>

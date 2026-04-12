@@ -8,7 +8,7 @@ import Skills from "./components/home/Skills.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ReactDOM from "react-dom/client";
 //import Error from "./components/other/Error.jsx";
-//import Awards from "./components/home/Awards.jsx";
+import Awards from "./components/home/Awards.jsx";
 //import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
 //import SingleBlog from "./components/blog/SingleBlog.jsx";
@@ -26,7 +26,7 @@ ReactDOM.createRoot(root).render(
             <div className="bg-gray-300">
               <Projects />
               <Experience />
-              {/*<Awards />*/}
+              <Awards />
               <Skills />
             </div>
             <Footer />
