@@ -1,20 +1,21 @@
 [
   {
-    "title": "Huawei Seeds for the Future Global Winner - Team Ireland",
-    "images": ["huawei_cert.jpg"],
-    "subtitle": "Huawei Seeds for the Future",
-    "date": "Awarded on 6th January 2023",
-    "description": "Huawei announced the winners of the second Tech4Good Competition on January 5, with the Irish team winning the first prize for their solution \"Roll On\" that helps wheelchair users independently board trains. This year's competition attracted 3,222 students from across 110 countries, who worked on more than 300 projects.",
-    "certificateLink": "huawei_cert.jpg",
+    "title": "Outstanding Contribution to Student Life as a Class Representative",
+    "images": ["sia_class_rep.jpg"],
+    "subtitle": "DCU Student Life",
+    "date": "Awarded on 24th March 2026",
+    "description": "Won the \"Outstanding Contribution to Student Life as a Class Representative\" award at the Student Impact Awards 2026 for my work not only as a class rep, but for my involvement with societies also.",
+    "certificateLink": "https://example.com/certificate",
     "relatedLinks": [
       {
-        "title": "Learn More About the Award",
-        "url": "https://example.com/learn-more"
+        "title": "DCU Society Listing Page",
+        "url": "https://dcuclubsandsocs.ie/society/media-production"
       },
       {
-        "title": "View Past Winners",
-        "url": "https://example.com/past-winners"
-      }
+        "title": "LinkedIn Post",
+        "url": "https://www.linkedin.com/in/jake-farrell-cs"
+      },
+      { "title": "Society Website", "url": "https://dcumps.jakefarrell.ie" }
     ]
   },
   {
@@ -37,22 +38,21 @@
     ]
   },
   {
-    "title": "Outstanding Contribution to Student Life as a Class Representative",
-    "images": ["sia_class_rep.jpg"],
-    "subtitle": "DCU Student Life",
-    "date": "Awarded on 24th March 2026",
-    "description": "Won the \"Outstanding Contribution to Student Life as a Class Representative\" award at the Student Impact Awards 2026 for my work not only as a class rep, but for my involvement with societies also.",
-    "certificateLink": "https://example.com/certificate",
+    "title": "Huawei Seeds for the Future Global Winner - Team Ireland",
+    "images": ["huawei_cert.jpg"],
+    "subtitle": "Huawei Seeds for the Future",
+    "date": "Awarded on 6th January 2023",
+    "description": "Huawei announced the winners of the second Tech4Good Competition on January 5, with the Irish team winning the first prize for their solution \"Roll On\" that helps wheelchair users independently board trains. This year's competition attracted 3,222 students from across 110 countries, who worked on more than 300 projects.",
+    "certificateLink": "huawei_cert.jpg",
     "relatedLinks": [
       {
-        "title": "DCU Society Listing Page",
-        "url": "https://dcuclubsandsocs.ie/society/media-production"
+        "title": "Learn More About the Award",
+        "url": "https://example.com/learn-more"
       },
       {
-        "title": "LinkedIn Post",
-        "url": "https://www.linkedin.com/in/jake-farrell-cs"
-      },
-      { "title": "Society Website", "url": "https://dcumps.jakefarrell.ie" }
+        "title": "View Past Winners",
+        "url": "https://example.com/past-winners"
+      }
     ]
   }
 ]

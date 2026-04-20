@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className="container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10">Experience</h2>
-      <div className="grid mx-8 md:grid-cols-2 gap-8">
+      <div className="grid mx-4 lg:grid-cols-2 gap-8">
         {experienceData.map((experience, index) => (
           <div
             key={index}

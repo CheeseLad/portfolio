@@ -24,7 +24,7 @@ const Projects = () => {
       {projectsRows.map((projectsRow, rowIndex) => (
         <div key={rowIndex} className="flex flex-wrap md:mx-6">
           {projectsRow.map((project, projectIndex) => (
-            <div key={projectIndex} className="w-full md:w-1/3 px-4 mb-8">
+            <div key={projectIndex} className="w-full lg:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300 block">
                 <img src={project.image} alt={project.title} className="w-full h-48 object-cover object-center" />
                 <div className="p-4">
