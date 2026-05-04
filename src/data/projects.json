@@ -1,10 +1,19 @@
 [
   {
+    "title": "Better File Search - Fourth Year Project",
+    "description": "Better File Search is a desktop application that makes local file system searching fast, smart and user-friendly. It features keyword-based search combined with modern semantic search techniques, enabling you to locate files of any multimedia type using natural language queries and contextual intent.",
+    "image": "better_file_search.png",
+    "techStack": ["TypeScript", "Vite", "Electron", "Python", "Flask", "PostgreSQL"],
+    "demoLink": "https://betterfilesearch.jakefarrell.ie",
+    "demoText": "Download Here"
+  },
+  {
     "title": "CollegeGuide - Third Year Project",
     "description": "CollegeGuide is a student companion platform aimed to connect, simplify and interconnect student lives. This platform provides a set of useful academic tools with the focus of a \"by students, for students\" approach by combining on-demand chatbot assistance and deeper, community-driven interaction features on dedicated module-based community boards.",
     "image": "collegeguide.png",
     "techStack": ["React", "Tailwind CSS", "Django", "Celery", "Redis", "Docker"],
     "demoLink": "https://collegeguide.jakefarrell.ie",
+    "demoText": "View Live",
     "extra": "Grade: 81%"
   },
   {
@@ -13,15 +22,8 @@
     "image": "homelab.webp",
     "techStack": ["Docker", "Debian", "MkDocs", "Shell", "Rclone"],
     "demoLink": "https://docs.jakefarrell.ie",
+    "demoText": "View Live",
     "codeLink": "https://github.com/CheeseLad/docs"
-  },
-  {
-    "title": "DCU Media Production Society Website",
-    "description": "Built using HTML, CSS, Bootstrap and Django, I created a custom website for DCU's Media Production Society as part of my tasks as a webmaster. It features dynamic content for our upcoming events, automated DCUfm data, details about the history of MPS, information about the committee and much more!",
-    "image": "dcumps.png",
-    "techStack": ["Django", "Bootstrap", "SQLite", "JavaScript", "Docker"],
-    "demoLink": "https://dcumps.jakefarrell.ie",
-    "codeLink": "https://github.com/DCUMPS/dcumps-website-django"
   },
   {
     "title": "DCU Fotosoc Website",
@@ -29,15 +31,17 @@
     "image": "fotosoc.png",
     "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
     "demoLink": "https://dcufotosoc.ie",
+    "demoText": "View Live",
     "codeLink": "https://github.com/CheeseLad/fotosoc"
   },
   {
-    "title": "Redbrick Email Generator",
-    "description": "This tool allows the Redbrick committee to easily generate emails using HTML tags via BeautifulSoup and Jinja into a preconfigured format, and enables emails to be sent directly from the website using smtplib. The web UI was created using Tailwind CSS and is powered by Flask.",
-    "image": "redbrick.webp",
-    "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
-    "demoLink": "https://redbrickgenerator.jakefarrell.ie",
-    "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
+    "title": "DCU Media Production Society Website",
+    "description": "Built using HTML, CSS, Bootstrap and Django, I created a custom website for DCU's Media Production Society as part of my tasks as a webmaster. It features dynamic content for our upcoming events, automated DCUfm data, details about the history of MPS, information about the committee and much more!",
+    "image": "dcumps.png",
+    "techStack": ["Django", "Bootstrap", "SQLite", "JavaScript", "Docker"],
+    "demoLink": "https://dcumps.jakefarrell.ie",
+    "demoText": "View Live",
+    "codeLink": "https://github.com/DCUMPS/dcumps-website-django"
   },
   {
     "title": "Clubs & Societies API",
@@ -45,14 +49,8 @@
     "image": "csapi.png",
     "techStack": ["Python", "BeautifulSoup", "Flask", "Swagger"],
     "demoLink": "https://clubsandsocs.jakefarrell.ie",
+    "demoText": "View Live",
     "codeLink": "https://github.com/CheeseLad/clubsandsocs-api"
-  },
-  {
-    "title": "The College View Website",
-    "description": "The College View is an independent student newspaper of Dublin City University, run voluntarily by students affiliated with DCU’s Media Production Society. I have maintained the WordPress instance with 6k+ articles and 13+ years of content, achieving 77k unique visitors with 132k total page views since January 2024.",
-    "image": "tcvweb.png",
-    "techStack": ["WordPress", "Account Management", "PHP"],
-    "demoLink": "https://thecollegeview.ie"
   },
   {
     "title": "The College View App",
@@ -60,6 +58,24 @@
     "image": "tcvapp.webp",
     "techStack": ["Flutter", "WordPress REST API", "Dart"],
     "demoLink": "https://tcvapp.jakefarrell.ie",
+    "demoText": "View Live",
     "codeLink": "https://github.com/CheeseLad/thecollegeview"
+  },
+  {
+    "title": "The College View Website",
+    "description": "The College View is an independent student newspaper of Dublin City University, run voluntarily by students affiliated with DCU’s Media Production Society. I have maintained the WordPress instance with 6k+ articles and 13+ years of content, achieving 77k unique visitors with 132k total page views since January 2024.",
+    "image": "tcvweb.png",
+    "techStack": ["WordPress", "Account Management", "PHP"],
+    "demoLink": "https://thecollegeview.ie",
+    "demoText": "View Live"
+  },
+  {
+    "title": "Redbrick Email Generator",
+    "description": "This tool allows the Redbrick committee to easily generate emails using HTML tags via BeautifulSoup and Jinja into a preconfigured format, and enables emails to be sent directly from the website using smtplib. The web UI was created using Tailwind CSS and is powered by Flask.",
+    "image": "redbrick.webp",
+    "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
+    "demoLink": "https://redbrickgenerator.jakefarrell.ie",
+    "demoText": "View Live",
+    "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
   }
 ]

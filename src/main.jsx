@@ -7,8 +7,9 @@ import Skills from "./components/home/Skills.jsx";
 //import PhotographyGallery from "./components/photography/PhotographyGallery.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ReactDOM from "react-dom/client";
-//import Error from "./components/other/Error.jsx";
+import Error from "./components/other/Error.jsx";
 import Awards from "./components/home/Awards.jsx";
+//import Productions from "./components/home/Productions.jsx";
 //import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
 //import SingleBlog from "./components/blog/SingleBlog.jsx";
@@ -19,7 +20,7 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route
-        path="*"
+        path="/"
         element={
           <div>
             <Intro />
@@ -34,6 +35,18 @@ ReactDOM.createRoot(root).render(
         }
       />
       {/*<Route
+        path="/productions"
+        element={
+          <div>
+            <Intro />
+            <div className="bg-gray-300">
+              <Productions />
+            </div>
+            <Footer />
+          </div>
+        }
+      />
+      <Route
         path="/photography"
         element={
           <div className="bg-gray-300 min-h-screen flex flex-col">
@@ -77,7 +90,7 @@ ReactDOM.createRoot(root).render(
             <Footer />
           </div>
         }
-      />
+      />*/}
       <Route
         path="*"
         element={
@@ -89,7 +102,7 @@ ReactDOM.createRoot(root).render(
             <Footer />
           </div>
         }
-      />*/}
+      />
     </Routes>
   </BrowserRouter>
 );

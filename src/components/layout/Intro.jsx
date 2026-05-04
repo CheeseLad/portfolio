@@ -3,6 +3,8 @@ import {
   faEnvelope,
   faFileLines,
   faCamera,
+  faVideoCamera,
+  faHouse,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -79,25 +81,6 @@ const Intro = () => {
       </div>
 
       <div className="flex justify-center flex-wrap">
-        {/*<Link
-          to="/"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
-          onClick={() => trackClick('Navigation_Click', { page: 'Home', location: 'Intro' })}
-        >
-          <FontAwesomeIcon icon={faHouse} className="mr-2" />
-          Home
-        </Link>*/}
-        {/*<Link
-          to="/events"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
-          onClick={() => trackClick('Navigation_Click', { page: 'Events', location: 'Intro' })}
-        >
-          <FontAwesomeIcon icon={faCalendarDays} className="mr-2" />
-          Events
-        </Link>*/}
-      </div>
-
-      <div className="flex justify-center flex-wrap">
          <Link
           to="https://home.jakefarrell.ie"
           target="_blank"
@@ -129,6 +112,33 @@ const Intro = () => {
           <FontAwesomeIcon icon={faCamera} className="mr-2" />
           Photography
         </Link>
+      </div>
+
+      <div className="flex justify-center flex-wrap">
+        {/*<Link
+          to="/"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Home', location: 'Intro' })}
+        >
+          <FontAwesomeIcon icon={faHouse} className="mr-2" />
+          Home
+        </Link>*/}
+        {/*<Link
+          to="/productions"
+          className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Photography_External', location: 'Intro' })}
+        >
+          <FontAwesomeIcon icon={faVideoCamera} className="mr-2" />
+          Livestream Productions
+        </Link>
+        <Link
+          to="/events"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() => trackClick('Navigation_Click', { page: 'Events', location: 'Intro' })}
+        >
+          <FontAwesomeIcon icon={faCalendarDays} className="mr-2" />
+          Events
+        </Link>*/}
       </div>
     </div>
   );

@@ -39,6 +39,7 @@ const Projects = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex justify-start">
+                      {project.demoLink && (
                       <Link
                         to={project.demoLink}
                         target="_blank"
@@ -46,8 +47,9 @@ const Projects = () => {
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4"
                       >
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
-                        View Live
+                        {project.demoText || "View Live"}
                       </Link>
+                      )}
                       {project.extra && (
                       <div className="bg-yellow-500 text-black px-4 py-2 rounded-md transition duration-300 mr-4">
                         <span>{project.extra}</span>
