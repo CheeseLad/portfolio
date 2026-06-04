@@ -32,7 +32,7 @@ const Intro = () => {
       </Link>
       <h1 className="text-3xl font-bold mb-2">Jake Farrell</h1>
       <p className="text-lg mb-6 px-4">
-        DCU Computer Science Student & Full-Stack Software Engineer
+        DCU Computer Science Graduate & Full-Stack Software Engineer
       </p>
       <div className="flex justify-center flex-wrap">
         <Link

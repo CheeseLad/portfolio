@@ -5,7 +5,8 @@
     "image": "better_file_search.png",
     "techStack": ["TypeScript", "Vite", "Electron", "Python", "Flask", "PostgreSQL"],
     "demoLink": "https://betterfilesearch.jakefarrell.ie",
-    "demoText": "Download Here"
+    "demoText": "Download Here",
+    "extra": "Grade: 85%"
   },
   {
     "title": "CollegeGuide - Third Year Project",
