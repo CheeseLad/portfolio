@@ -8,6 +8,7 @@ import Skills from "./components/home/Skills.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ReactDOM from "react-dom/client";
 import Error from "./components/other/Error.jsx";
+import Contact from "./components/other/Contact.jsx";
 import Awards from "./components/home/Awards.jsx";
 //import Productions from "./components/home/Productions.jsx";
 //import Events from "./components/home/Events.jsx";
@@ -29,6 +30,7 @@ ReactDOM.createRoot(root).render(
               <Experience />
               <Awards />
               <Skills />
+              <Contact />
             </div>
             <Footer />
           </div>
