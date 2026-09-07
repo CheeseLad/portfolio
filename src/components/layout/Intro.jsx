@@ -14,9 +14,9 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 
-const Intro = () => {
+const Intro = ({ isProductions = false }) => {
   const trackClick = (action, details = {}) => {
-    if (typeof window !== 'undefined' && window.plausible) {
+    if (typeof window !== "undefined" && window.plausible) {
       window.plausible(action, { props: details });
     }
   };
@@ -31,15 +31,28 @@ const Intro = () => {
         ></img>
       </Link>
       <h1 className="text-3xl font-bold mb-2">Jake Farrell</h1>
-      <p className="text-lg mb-6 px-4">
-        DCU Computer Science Graduate & Full-Stack Software Engineer
-      </p>
+      <div className="mb-6 px-4">
+        <p className="text-lg">
+          Full-Stack Software Engineer
+        </p>
+        <p className="text-lg">
+          DCU Computer Science Graduate
+        </p>
+        <p className="text-lg">
+          Hobbyist Livestream Production Engineer
+        </p>
+      </div>
       <div className="flex justify-center flex-wrap">
         <Link
           to="https://github.com/CheeseLad"
           target="_blank"
           className="hover:text-gray-700 transform hover:scale-110 transition duration-300"
-          onClick={() => trackClick('Social_Click', { platform: 'GitHub', location: 'Intro' })}
+          onClick={() =>
+            trackClick("Social_Click", {
+              platform: "GitHub",
+              location: "Intro",
+            })
+          }
         >
           <FontAwesomeIcon
             icon={faGithub}
@@ -50,7 +63,12 @@ const Intro = () => {
           to="https://www.linkedin.com/in/jake-farrell-cs"
           target="_blank"
           className="hover:text-blue-700 transform hover:scale-110 transition duration-300"
-          onClick={() => trackClick('Social_Click', { platform: 'LinkedIn', location: 'Intro' })}
+          onClick={() =>
+            trackClick("Social_Click", {
+              platform: "LinkedIn",
+              location: "Intro",
+            })
+          }
         >
           <FontAwesomeIcon
             icon={faLinkedin}
@@ -61,7 +79,12 @@ const Intro = () => {
           to="https://www.instagram.com/jakefarrell2003"
           target="_blank"
           className="hover:text-pink-500 transform hover:scale-110 transition duration-300"
-          onClick={() => trackClick('Social_Click', { platform: 'Instagram', location: 'Intro' })}
+          onClick={() =>
+            trackClick("Social_Click", {
+              platform: "Instagram",
+              location: "Intro",
+            })
+          }
         >
           <FontAwesomeIcon
             icon={faInstagram}
@@ -71,7 +94,9 @@ const Intro = () => {
         <Link
           to="mailto:jake_farrell@outlook.com"
           className="hover:text-blue-500 transform hover:scale-110 transition duration-300"
-          onClick={() => trackClick('Contact_Click', { method: 'Email', location: 'Intro' })}
+          onClick={() =>
+            trackClick("Contact_Click", { method: "Email", location: "Intro" })
+          }
         >
           <FontAwesomeIcon
             icon={faEnvelope}
@@ -81,12 +106,17 @@ const Intro = () => {
       </div>
 
       <div className="flex justify-center flex-wrap">
-         <Link
+        <Link
           to="https://home.jakefarrell.ie"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[180px] text-center"
-          onClick={() => trackClick('External_Click', { destination: 'Home_Server', location: 'Intro' })}
+          onClick={() =>
+            trackClick("External_Click", {
+              destination: "Home_Server",
+              location: "Intro",
+            })
+          }
         >
           <FontAwesomeIcon icon={faServer} className="mr-2" />
           Home Server Dashboard
@@ -96,18 +126,25 @@ const Intro = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
-          onClick={() => trackClick('CV_Download', { format: 'PDF', location: 'Intro' })}
+          onClick={() =>
+            trackClick("CV_Download", { format: "PDF", location: "Intro" })
+          }
         >
           <FontAwesomeIcon icon={faFileLines} className="mr-2" />
           Résumé / CV
         </Link>
-       
+
         <Link
           to="https://dcufotosoc.ie/portfolios/jake-farrell"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
-          onClick={() => trackClick('Navigation_Click', { page: 'Photography_External', location: 'Intro' })}
+          onClick={() =>
+            trackClick("Navigation_Click", {
+              page: "Photography_External",
+              location: "Intro",
+            })
+          }
         >
           <FontAwesomeIcon icon={faCamera} className="mr-2" />
           Photography
@@ -115,15 +152,18 @@ const Intro = () => {
       </div>
 
       <div className="flex justify-center flex-wrap">
-        {/*<Link
+        {isProductions && (
+        <Link
           to="/"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
           onClick={() => trackClick('Navigation_Click', { page: 'Home', location: 'Intro' })}
         >
           <FontAwesomeIcon icon={faHouse} className="mr-2" />
           Home
-        </Link>*/}
-        {/*<Link
+        </Link>
+        )}
+        {!isProductions && (
+        <Link
           to="/productions"
           className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
           onClick={() => trackClick('Navigation_Click', { page: 'Photography_External', location: 'Intro' })}
@@ -131,7 +171,8 @@ const Intro = () => {
           <FontAwesomeIcon icon={faVideoCamera} className="mr-2" />
           Livestream Productions
         </Link>
-        <Link
+        )}
+        {/*<Link
           to="/events"
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
           onClick={() => trackClick('Navigation_Click', { page: 'Events', location: 'Intro' })}

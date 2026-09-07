@@ -1,0 +1,23 @@
+[
+  {
+    "title": "DCU Spring Graduations 2026",
+    "description": "Better File Search is a desktop application that makes local file system searching fast, smart and user-friendly. It features keyword-based search combined with modern semantic search techniques, enabling you to locate files of any multimedia type using natural language queries and contextual intent.",
+    "image": "productions/technical-diagrams/dcu-spring-2026-jf.png",
+    "technical_link": "/productions/technical-diagrams/dcu-spring-2026-jf.png",
+    "technical_link_label": "View Full Screen"
+  },
+  {
+    "title": "DCUtv 24 Hour Broadcast",
+    "description": "CollegeGuide is a student companion platform aimed to connect, simplify and interconnect student lives. This platform provides a set of useful academic tools with the focus of a \"by students, for students\" approach by combining on-demand chatbot assistance and deeper, community-driven interaction features on dedicated module-based community boards.",
+    "image": "productions/technical-diagrams/dcutv-jf.png",
+    "technical_link": "/productions/technical-diagrams/dcutv-jf.png",
+    "technical_link_label": "View Full Screen"
+  },
+  {
+    "title": "DCUfm 12 Hour Broadcast",
+    "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and other useful tools.",
+    "image": "productions/technical-diagrams/dcufm-jf.png",
+    "technical_link": "/productions/technical-diagrams/dcufm-jf.png",
+    "technical_link_label": "View Full Screen"
+  }
+]

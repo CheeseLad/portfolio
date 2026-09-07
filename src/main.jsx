@@ -10,7 +10,7 @@ import ReactDOM from "react-dom/client";
 import Error from "./components/other/Error.jsx";
 import Contact from "./components/other/Contact.jsx";
 import Awards from "./components/home/Awards.jsx";
-//import Productions from "./components/home/Productions.jsx";
+import Productions from "./components/home/Productions.jsx";
 //import Events from "./components/home/Events.jsx";
 //import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
 //import SingleBlog from "./components/blog/SingleBlog.jsx";
@@ -24,7 +24,7 @@ ReactDOM.createRoot(root).render(
         path="/"
         element={
           <div>
-            <Intro />
+            <Intro isProductions={false} />
             <div className="bg-gray-300">
               <Projects />
               <Experience />
@@ -36,19 +36,20 @@ ReactDOM.createRoot(root).render(
           </div>
         }
       />
-      {/*<Route
+      <Route
         path="/productions"
         element={
           <div>
-            <Intro />
+            <Intro isProductions={true} />
             <div className="bg-gray-300">
               <Productions />
+              <Contact />
             </div>
             <Footer />
           </div>
         }
       />
-      <Route
+      {/*<Route
         path="/photography"
         element={
           <div className="bg-gray-300 min-h-screen flex flex-col">

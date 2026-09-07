@@ -1,0 +1,44 @@
+[
+  {
+    "title": "DCU Spring Graduations 2026",
+    "main_image": "/productions/dcu-spring-graduations-2026/IMG_0559.jpg",
+    "sub_images": [
+    "/productions/dcu-spring-graduations-2026/IMG_0635.jpg",
+    "/productions/dcu-spring-graduations-2026/IMG_0400.jpg",
+    "/productions/dcu-spring-graduations-2026/IMG_0501.jpg",
+    "/productions/dcu-spring-graduations-2026/IMG_0577.jpg",
+    "/productions/dcu-spring-graduations-2026/IMG_0581.jpg"
+
+    ],
+    "description": "Towards the end of March, I had the opportunity to set up the equipment and manage the livestream for the Dublin City University Spring 2026 Graduations as part of the DCU Media Production Society, connecting graduates’ families and friends from around the world for this very special moment. The graduations spanned 3 separate ceremonies, with over 1000 postgraduate students receiving their degrees on the day. <br><br> The technical setup featured 4 separate camera feeds, one of which was a network-controlled camera that I configured with multiple preset angles for use throughout the ceremonies. After 2 days of setup and a full day of live-streaming, it was great to see it all come together!",
+    "statistics_title": "Livestream Statistics",
+    "statistics": [
+      { "label": "Total Viewers", "value": "11,242" },
+      { "label": "Peak Viewers", "value": "438" },
+      { "label": "Average Concurrent Viewers", "value": "150" },
+      { "label": "Total Streaming Time", "value": "8 hours" }
+    ],
+    "technical_link": "/productions/technical-diagrams/dcu-spring-2026-jf.png",
+    "technical_link_label": "View Technical Diagram",
+    "youtube_link": "https://www.youtube.com/watch?v=h7MJROLqkLA",
+    "youtube_link_label": "Watch YouTube Livestream"
+  },
+  {
+    "title": "Live AV Technical Broadcast Workshop - Broadcraft",
+    "main_image": "/productions/broadcraft/poster.png",
+    "sub_images": [
+    "/productions/broadcraft/1.JPEG",
+    "/productions/broadcraft/3.JPEG",
+    "/productions/broadcraft/slide.png"
+    ],
+    "description": "I’m delighted to have recently led a technical workshop for DCU Media Production Society called “Broadcraft”. The purpose of the event was to teach our members how to operate the streaming software OBS and configure it using our famous 24-hour broadcast as an example. This is a first-of-its-kind event for the society, requiring members to bring their laptops to follow along. <br><br> I covered the following topics in the workshop: <br><br><ul><li> Setting up OBS, choosing encoder settings and best practices</li><li>Adding video and audio sources, and ways to check and monitor</li><li>Adding custom overlays, and more!</li></ul> <br>At the end of the event, 25 of our members went from not having OBS installed to being able to get started with their own Twitch streams, enabling them to continue their radio shows over the summer, for example.",
+    "statistics_title": "Workshop Statistics",
+    "statistics": [
+      { "label": "Members in Attendance", "value": "25+" }
+    ],
+    "technical_link": "",
+    "technical_link_label": "",
+    "youtube_link": "",
+    "youtube_link_label": ""
+  }
+]
