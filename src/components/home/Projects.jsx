@@ -1,9 +1,8 @@
-import React from 'react';
 import ProjectData from '../../data/projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import ButtonRow from '../layout/ButtonRow';
+// import ButtonRow from '../layout/ButtonRow';
 import { Link } from 'react-router';
 
 const chunkArray = (array, size) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import experienceData from '../../data/experience.json';
 import { Link } from 'react-router';
 

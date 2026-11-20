@@ -5,7 +5,6 @@ import {
   faArrowUpRightFromSquare,
   faVideoCamera,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs, Autoplay } from "swiper/modules";
@@ -15,8 +14,6 @@ import "swiper/css/thumbs";
 
 import { useState } from "react";
 import PropTypes from "prop-types";
-
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const chunkArray = (array, size) => {
   const result = [];
