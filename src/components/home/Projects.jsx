@@ -90,21 +90,21 @@ const Projects = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="flex justify-between">
-                    <div className="flex justify-start">
+                  <div className="flex justify-between items-start gap-2">
+                    <div className="flex flex-col sm:flex-row items-start gap-2">
                       {project.demoLink && (
                       <Link
                         to={project.demoLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4"
+                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 text-center whitespace-nowrap"
                       >
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
                         {project.demoText || "View Live"}
                       </Link>
                       )}
                       {project.extra && (
-                      <div className="bg-yellow-500 text-black px-4 py-2 rounded-md transition duration-300 mr-4">
+                      <div className="bg-yellow-500 text-black px-4 py-2 rounded-md transition duration-300 text-center whitespace-nowrap">
                         <span>{project.extra}</span>
                       </div>
                     )}

@@ -106,7 +106,7 @@ const Intro = ({ isProductions = false }) => {
         </Link>
       </div>
 
-      <div className="flex justify-center flex-wrap">
+      <div className="flex flex-col md:flex-row justify-center items-center">
         <Link
           to="https://home.jakefarrell.ie"
           target="_blank"
@@ -135,7 +135,7 @@ const Intro = ({ isProductions = false }) => {
           Résumé / CV
         </Link>
 
-                <Link
+        <Link
           to="https://docs.jakefarrell.ie"
           target="_blank"
           rel="noopener noreferrer"
@@ -150,8 +150,6 @@ const Intro = ({ isProductions = false }) => {
           <FontAwesomeIcon icon={faBook} className="mr-2" />
           Servers / Project Docs
         </Link>
-
-
       </div>
 
       <div className="flex justify-center flex-wrap">
