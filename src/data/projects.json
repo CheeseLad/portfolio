@@ -1,6 +1,10 @@
 [
   {
     "title": "Better File Search - Fourth Year Project",
+    "types": [
+      "featured",
+      "college"
+    ],
     "description": "Better File Search is a desktop application that makes local file system searching fast, smart and user-friendly. It features keyword-based search combined with modern semantic search techniques, enabling you to locate files of any multimedia type using natural language queries and contextual intent.",
     "image": "better_file_search.png",
     "techStack": ["TypeScript", "Vite", "Electron", "Python", "Flask", "PostgreSQL"],
@@ -10,6 +14,10 @@
   },
   {
     "title": "CollegeGuide - Third Year Project",
+    "types": [
+      "featured",
+      "college"
+    ],
     "description": "CollegeGuide is a student companion platform aimed to connect, simplify and interconnect student lives. This platform provides a set of useful academic tools with the focus of a \"by students, for students\" approach by combining on-demand chatbot assistance and deeper, community-driven interaction features on dedicated module-based community boards.",
     "image": "collegeguide.png",
     "techStack": ["React", "Tailwind CSS", "Django", "Celery", "Redis", "Docker"],
@@ -19,16 +27,23 @@
   },
   {
     "title": "Home Server, VPS and Documentation",
+    "types": [
+      "featured"
+    ],
     "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and other useful tools.",
     "image": "homelab.webp",
     "techStack": ["Docker", "Debian", "MkDocs", "Shell", "Rclone"],
     "demoLink": "https://docs.jakefarrell.ie",
-    "demoText": "View Live",
+    "demoText": "View Documentation",
     "codeLink": "https://github.com/CheeseLad/docs"
   },
   {
     "title": "DCU Fotosoc Website",
-    "description": "Developing a full stack website built using React, TailwindCSS and Firebase to fulfil the requirements of the society. Utilising the Stripe API to allow the society to sell merchandise and our yearly photo collection book.",
+    "types": [
+      "featured",
+      "society"
+    ],
+    "description": "Developed a full-stack website built using React, TailwindCSS and Firebase to fulfil the requirements of the society. The website features automated event data, previous workshop information, a gallery featuring photos from our past events, and to top it all off, a custom photography portfolio builder for our members to showcase their work.",
     "image": "fotosoc.png",
     "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
     "demoLink": "https://dcufotosoc.ie",
@@ -37,6 +52,10 @@
   },
   {
     "title": "DCU Media Production Society Website",
+    "types": [
+      "featured",
+      "society"
+    ],
     "description": "Built using HTML, CSS, Bootstrap and Django, I created a custom website for DCU's Media Production Society as part of my tasks as a webmaster. It features dynamic content for our upcoming events, automated DCUfm data, details about the history of MPS, information about the committee and much more!",
     "image": "dcumps.png",
     "techStack": ["Django", "Bootstrap", "SQLite", "JavaScript", "Docker"],
@@ -46,6 +65,10 @@
   },
   {
     "title": "Clubs & Societies API",
+    "types": [
+      "featured",
+      "society"
+    ],
     "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications. This API is utilised in my other projects such as the DCU Media Production Society website and the DCU Fotosoc website, displaying upcoming event information to members.",
     "image": "csapi.png",
     "techStack": ["Python", "BeautifulSoup", "Flask", "Swagger"],
@@ -55,7 +78,11 @@
   },
   {
     "title": "The College View App",
-    "description": "Developing an iOS & Android app for The College View - DCU's independent student newspaper using Flutter and the WordPress REST API. The app allows users to view articles and categories, submit their own articles and search for articles, the app is planned to be released on both the Apple App Store and the Google Play Store.",
+    "types": [
+      "featured",
+      "society"
+    ],
+    "description": "Developing an iOS & Android app for The College View - DCU's independent student newspaper using Flutter and the WordPress REST API. The app allows users to view articles and categories, save articles offlice and search for articles. The app is planned to be released on the Apple App and Google Play Stores.",
     "image": "tcvapp.webp",
     "techStack": ["Flutter", "WordPress REST API", "Dart"],
     "demoLink": "https://tcvapp.jakefarrell.ie",
@@ -64,6 +91,10 @@
   },
   {
     "title": "The College View Website",
+    "types": [
+      "featured",
+      "society"
+    ],
     "description": "The College View is an independent student newspaper of Dublin City University, run voluntarily by students affiliated with DCU’s Media Production Society. I have maintained the WordPress instance with 6k+ articles and 13+ years of content, achieving 77k unique visitors with 132k total page views since January 2024.",
     "image": "tcvweb.png",
     "techStack": ["WordPress", "Account Management", "PHP"],
@@ -72,11 +103,53 @@
   },
   {
     "title": "Redbrick Email Generator",
+    "types": [
+      "society"
+    ],
     "description": "This tool allows the Redbrick committee to easily generate emails using HTML tags via BeautifulSoup and Jinja into a preconfigured format, and enables emails to be sent directly from the website using smtplib. The web UI was created using Tailwind CSS and is powered by Flask.",
     "image": "redbrick.webp",
     "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
     "demoLink": "https://redbrickgenerator.jakefarrell.ie",
     "demoText": "View Live",
     "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
+  },
+  {
+    "title": "CA298 React Exam",
+    "types": [
+      "college"
+    ],
+    "description": "CA298 Full Stack Development React Exam: React Frontend Shop System: Grade 100%",
+    "image": "ca298-reactexam.png",
+    "techStack": ["React", "JavaScript", "Bootstrap"],
+    "demoLink": "https://reactexam.jakefarrell.ie",
+    "demoText": "View Live",
+    "codeLink": "https://github.com/CheeseLad/ca298-reactexam",
+    "extra": "Grade: 100%"
+  },
+  {
+    "title": "CA298 University System",
+    "types": [
+      "college"
+    ],
+    "description": "CA298 Full Stack Development Project 2: React Frontend University System: Grade 100%",
+    "image": "ca298-universitysystem.png",
+    "techStack": ["React", "JavaScript", "Bootstrap"],
+    "demoLink": "https://universitysystem.jakefarrell.ie",
+    "demoText": "View Live",
+    "codeLink": "https://github.com/CheeseLad/ca298-universitysystem",
+    "extra": "Grade: 100%"
+  },
+  {
+    "title": "CA298 PizzaShop",
+    "types": [
+      "college"
+    ],
+    "description": "CA298 Full Stack Development Project 1: Django Frontend & Backend: Grade 100%",
+    "image": "ca298-pizzashop.png",
+    "techStack": ["Python", "Django", "Bootstrap"],
+    "demoLink": "https://pizzashop.jakefarrell.ie",
+    "demoText": "View Live",
+    "codeLink": "https://github.com/CheeseLad/ca298-pizzashop",
+    "extra": "Grade: 100%"
   }
 ]

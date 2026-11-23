@@ -5,6 +5,7 @@ import {
   faCamera,
   faVideoCamera,
   faHouse,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -33,10 +34,10 @@ const Intro = ({ isProductions = false }) => {
       <h1 className="text-3xl font-bold mb-2">Jake Farrell</h1>
       <div className="mb-6 px-4">
         <p className="text-lg">
-          Full-Stack Software Engineer
+          Software Development Engineer @ Workday
         </p>
         <p className="text-lg">
-          DCU Computer Science Graduate
+          Computer Science Graduate @ DCU
         </p>
         <p className="text-lg">
           Hobbyist Livestream Production Engineer
@@ -134,21 +135,23 @@ const Intro = ({ isProductions = false }) => {
           Résumé / CV
         </Link>
 
-        <Link
-          to="https://dcufotosoc.ie/portfolios/jake-farrell"
+                <Link
+          to="https://docs.jakefarrell.ie"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[180px] text-center"
           onClick={() =>
-            trackClick("Navigation_Click", {
-              page: "Photography_External",
+            trackClick("External_Click", {
+              destination: "Documentation",
               location: "Intro",
             })
           }
         >
-          <FontAwesomeIcon icon={faCamera} className="mr-2" />
-          Photography
+          <FontAwesomeIcon icon={faBook} className="mr-2" />
+          Servers / Project Docs
         </Link>
+
+
       </div>
 
       <div className="flex justify-center flex-wrap">
@@ -180,6 +183,22 @@ const Intro = ({ isProductions = false }) => {
           <FontAwesomeIcon icon={faCalendarDays} className="mr-2" />
           Events
         </Link>*/}
+
+                <Link
+          to="https://dcufotosoc.ie/portfolios/jake-farrell"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#43A041] hover:bg-[#368235] text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center"
+          onClick={() =>
+            trackClick("Navigation_Click", {
+              page: "Photography_External",
+              location: "Intro",
+            })
+          }
+        >
+          <FontAwesomeIcon icon={faCamera} className="mr-2" />
+          Photography
+        </Link>
       </div>
     </div>
   );

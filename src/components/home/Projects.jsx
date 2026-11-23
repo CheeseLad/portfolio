@@ -1,9 +1,20 @@
+import { useState } from 'react';
 import ProjectData from '../../data/projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-// import ButtonRow from '../layout/ButtonRow';
+import {
+  faArrowUpRightFromSquare,
+  faUsers,
+  faStar,
+  faGraduationCap,
+} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router';
+
+const FILTER_OPTIONS = [
+  { id: 'featured', label: 'Featured', icon: faStar },
+  { id: 'college', label: 'College', icon: faGraduationCap },
+  { id: 'society', label: 'Society', icon: faUsers },
+];
 
 const chunkArray = (array, size) => {
   const result = [];
@@ -13,17 +24,60 @@ const chunkArray = (array, size) => {
   return result;
 };
 
-const projectsRows = chunkArray(ProjectData, 3);
-
 const Projects = () => {
+  const [activeFilter, setActiveFilter] = useState('featured');
+
+  const trackClick = (action, details = {}) => {
+    if (typeof window !== "undefined" && window.plausible) {
+      window.plausible(action, { props: details });
+    }
+  };
+
+  const filteredProjects = ProjectData.filter((project) =>
+    project.types?.includes(activeFilter)
+  );
+
+  const projectsRows = chunkArray(filteredProjects, 3);
+
   return (
     <div className="container mx-auto pb-12 pt-6">
-      <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
-      {/*<ButtonRow />*/}
+      <h2 className="text-3xl font-bold text-center mb-2">Projects</h2>
+
+      <div className="flex justify-center flex-wrap mb-6">
+        {FILTER_OPTIONS.map((filter) => {
+          const count = ProjectData.filter((project) =>
+            project.types?.includes(filter.id)
+          ).length;
+          const isActive = activeFilter === filter.id;
+
+          return (
+            <button
+              key={filter.id}
+              type="button"
+              onClick={() => {
+                setActiveFilter(filter.id);
+                trackClick("Filter_Click", {
+                  filter: filter.id,
+                  location: "Projects",
+                });
+              }}
+              className={`px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[100px] text-center cursor-pointer font-medium ${
+                isActive
+                  ? "bg-blue-500 hover:bg-blue-600 text-white shadow-md"
+                  : "bg-white hover:bg-gray-100 text-gray-700 shadow-sm"
+              }`}
+            >
+              <FontAwesomeIcon icon={filter.icon} className="mr-2" />
+              {filter.label} ({count})
+            </button>
+          );
+        })}
+      </div>
+
       {projectsRows.map((projectsRow, rowIndex) => (
         <div key={rowIndex} className="flex flex-wrap md:mx-6">
-          {projectsRow.map((project, projectIndex) => (
-            <div key={projectIndex} className="w-full lg:w-1/3 px-4 mb-8">
+          {projectsRow.map((project) => (
+            <div key={project.title} className="w-full lg:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300 block">
                 <img src={project.image} alt={project.title} className="w-full h-48 object-cover object-center" />
                 <div className="p-4">
